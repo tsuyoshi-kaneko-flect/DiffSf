@@ -1,0 +1,25 @@
+{
+  "name": "diffsf",
+  "version": "0.0.1",
+  "description": "diff sf",
+  "main": "main.ts",
+  "scripts": {
+    "build": "babel --out-file build/bundle.js src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuyoshi-kaneko-flect/diffsf.git"
+  },
+  "author": "tsuyoshi-kaneko-flect",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/tsuyoshi-kaneko-flect/diffsf/issues"
+  },
+  "homepage": "https://github.com/tsuyoshi-kaneko-flect/diffsf#readme",
+  "devDependencies": {
+    "@babel/cli": "7.19.3",
+    "@babel/core": "7.20.2",
+    "@babel/preset-typescript": "7.18.6"
+  }
+}
